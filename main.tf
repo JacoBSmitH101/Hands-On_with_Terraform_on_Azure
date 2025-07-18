@@ -14,9 +14,9 @@ provider "azurerm" {
   skip_provider_registration = true
 
   subscription_id = "2213e8b1-dbc7-4d54-8aff-b5e315df5e5b"
-  tenant_id       = "84f1e4ea-8554-43e1-8709-f0b8589ea118"        # only needed for SPN
-  client_id       = "9b281e9a-2b52-43bf-b6cd-fb85f8d311f8"        # only needed for SPN
-  client_secret   = "J_d8Q~U2-bvWZ99LHkfB4xZ45CIK6Jg038zEjaBm"    # only needed for SPN
+  tenant_id       = "84f1e4ea-8554-43e1-8709-f0b8589ea118"     # only needed for SPN
+  client_id       = "9b281e9a-2b52-43bf-b6cd-fb85f8d311f8"     # only needed for SPN
+  client_secret   = "J_d8Q~U2-bvWZ99LHkfB4xZ45CIK6Jg038zEjaBm" # only needed for SPN
 }
 
 resource "azurerm_resource_group" "rg" {
