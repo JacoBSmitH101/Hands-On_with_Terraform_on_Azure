@@ -26,7 +26,7 @@ resource "azurerm_resource_group" "rg" {
 
 module "securestorage" {
   source               = "app.terraform.io/memememe/securestorage/azurerm"
-  version              = "1.0.0"
+  version              = "1.0.1"
   location             = azurerm_resource_group.rg.location
   resource_group_name  = azurerm_resource_group.rg.name
   storage_account_name = "securestorage24312"
